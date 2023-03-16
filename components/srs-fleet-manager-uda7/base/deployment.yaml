@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: srs-fleet-manager-uda7
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload@sha256:aa891da208a8c8879ddbc58c6792ab7cc902afcb67c10014f2142a713ab25fd3
+      - image: quay.io/redhat-appstudio/user-workload@sha256:7580cb3bb0721b5d02c511959b494fb3ed470b8c6a20507bb1c888aed170de20
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
