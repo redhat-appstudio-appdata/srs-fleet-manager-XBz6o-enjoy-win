@@ -3,7 +3,6 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   name: srs-fleet-manager-uda7
-  namespace: nipatil-tenant
 spec:
   replicas: 1
   selector: {}
